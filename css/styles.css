@@ -1,0 +1,183 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+.container-fluid{
+    padding: 3% 7%
+}
+
+                                                   /* Headings */
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height:1.5;
+    font-weight: bold
+}
+
+h2{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    line-height:1.5;
+    font-size: 3rem
+}
+
+h3{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1.3rem
+}
+
+p{
+    color: #8f8f8f;
+    line-height: 1.5
+}
+                                                 /* Navigation Bar */
+
+
+#title{
+    background-color: #ff4c68;
+    color:#FFF
+}
+
+.navbar{
+    padding: 0 0 10rem;
+}
+
+.navbar-brand{
+    font-family: 'Grandstander';
+    font-weight: bold;
+    font-size: 2.9rem
+    
+}
+
+.nav-item{
+    padding: 0 5px
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400
+}
+
+
+
+
+/* Download Buttons*/
+.download-button{
+     margin: 5% 3% 5% 0
+}
+
+/* Title Image*/
+
+.title-image{
+     position: absolute;
+     width: 60%;
+     transform: rotate(25deg)
+}
+
+@media (max-width:991px){
+    .title-image{
+        position: static;
+        transform: rotate(0)
+
+    }
+    #title .row{
+        text-align: center
+    }
+}
+
+
+                            /* Features */
+#features{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #fff;
+    position: relative
+}
+
+.feat-icon{    
+    color: #ef8172;
+    margin: 15px
+}
+
+.feat-icon:hover{
+    color: #ff4c68
+}
+
+
+                                       /* Testimonials */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff
+} 
+.testimonial-image{
+    border-radius: 100%;
+    width: 10%
+}
+
+.carousel-inner{
+    padding: 7% 15%
+}
+
+                                       /* Press */
+#press{
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px
+}
+
+                                       /* Pricing */
+#pricing{
+    padding: 7% 10%
+}
+
+.pricing-column{
+    padding: 2% 3%
+}
+
+
+                                  /* Call to Action */
+
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7% 15% 
+}
+
+#cta h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.1rem;
+    line-height:1.5;
+    font-weight: bold;
+    color:#fff
+}
+
+#cta button{
+    margin-bottom: 0
+}
+                                   /* Footer */
+#footer{
+    margin: 5% 0;
+    text-align: center;
+    background-color: #fff
+}
+
+.social-logo{
+    margin: 0 8px 20px
+}
+
+#footer p{
+    font-size: 19px
+}
+
+
